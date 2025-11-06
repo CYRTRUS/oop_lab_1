@@ -11,13 +11,14 @@ The lab showcases practical data manipulation techniques using Python, including
 - Method chaining for complex queries
 
 ## Project Structure
+```bash
 oop_lab_1/
-│
 ├── README.md # This documentation file
 ├── Cities.csv # Dataset containing city information
 └── data_processing.py # Main analysis code with DataLoader and Table classes
+```
 
-## Design Overview
+## Code Overview
 
 ### DataLoader Class
 
@@ -43,11 +44,7 @@ The `Table` class represents a tabular dataset and provides methods for data man
 - `filter(condition)`: Filters the table based on a lambda function condition and returns a new Table
 - `aggregate(aggregation_function, aggregation_key)`: Performs aggregation operations on specified columns
 
-## How to Test and Run Your Code
-
-### Prerequisites
-- Python 3.6 or higher
-- No external dependencies required (uses only standard library modules)
+## How to run the code
 
 ### Running the Code
 
